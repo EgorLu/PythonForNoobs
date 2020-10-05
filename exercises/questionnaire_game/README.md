@@ -14,5 +14,5 @@ Most questions are conpiracy centric. This is a hard requirement.
 In order to demonstrate correct, algorithmic thinking and software design, the game will be written in numerous ways:
 
 1. Completely procedural, hard-coded and "WET". (v1)
-2. A more function-oriented solution. Practicing the "DRY" principle.
-3. An object oriented approach.
+2. A more function-oriented solution. Practicing the "DRY" principle. (v2)
+3. An object oriented approach. (v3)
