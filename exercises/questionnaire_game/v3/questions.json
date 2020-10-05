@@ -1,0 +1,42 @@
+[
+    {
+        "question": "What is the first letter of the English alphabet?",
+        "answers": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "correct_answer": 1
+    },
+    {
+        "question": "What is COVID-19?",
+        "answers": [
+            "A new Avengers movie",
+            "A global virus",
+            "A new brand of the Corona beer",
+            "Government's plan to infuse the population with electronic chips"
+        ],
+        "correct_answer": 4
+    },
+    {
+        "question": "Did dinosaurs exist?",
+        "answers": [
+            "Yes, this is proven by a plethora of evidence",
+            "No, Native Americans carve the fossils from bear bones and bury them across the world",
+            "Yes, in the Jurassic World",
+            "Yes and they live amongst us nowadays"
+        ],
+        "correct_answer": 2
+    },
+    {
+        "question": "Can you use Google Drive if you don't have a driver's license?",
+        "answers": [
+            "No, unless using a self-driving computer",
+            "Yes, only if you install the relevant drivers",
+            "The government is ran by Lizardmen",
+            "Google Drive and driving a vehicle are unrelated"
+        ],
+        "correct_answer": 3
+    }
+]
