@@ -1,3 +1,13 @@
+import os
+
+
+def clear_screen():
+    if os.name == 'nt':  # Windows
+        os.system('cls')
+    else:  # Posix
+        os.system('clear')
+
+
 if __name__ == '__main__':
     # Get players
     players_num = int(input('How many players will be playing?\n'))
@@ -9,8 +19,12 @@ if __name__ == '__main__':
     lines = []
     rounds = players_num * 3
     for game_round in range(rounds):
-        lines.append(
-            input(f'Round #{game_round + 1}, {player_names[game_round % players_num]}:\n'))
+        print(
+            f'Round #{game_round + 1}, {player_names[game_round % players_num]}:')
+        lines.append(input('First sentece:\n'))
+        clear_screen()
+        lines.append(input('Second sentece:\n'))
+        # But this can be done cleaner, we could print the last sentence in the list instead.
 
     # Print lines
     print('\n'.join(lines))
