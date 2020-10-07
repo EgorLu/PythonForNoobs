@@ -2,6 +2,7 @@ import os
 
 
 def clear_screen():
+    ''' Clears the terminal screen (could be improved to store the clear value)'''
     if os.name == 'nt':  # Windows
         os.system('cls')
     else:  # Posix
