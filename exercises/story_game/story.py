@@ -1,5 +1,5 @@
 import os
-
+import time
 
 def clear_screen():
     ''' Clears the terminal screen (could be improved to store the clear value)'''
@@ -27,5 +27,11 @@ if __name__ == '__main__':
         lines.append(input('Second sentece:\n'))
         # But this can be done cleaner, we could print the last sentence in the list instead.
 
-    # Print lines
-    print('\n'.join(lines))
+    story = '\n'.join(lines) 
+    # Print story
+    print(story)
+    # Save story
+    save = input('Save story? (yes/no)\n')
+    if save.lower() in ('yes', 'y'):
+        with open(f'story_{time.time()}.txt', 'w') as f:
+            f.write(story)
