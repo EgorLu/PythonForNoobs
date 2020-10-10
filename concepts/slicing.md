@@ -9,7 +9,7 @@ and looks good doing it.
 ```python
 my_list[start:end:step]
 ```
-- *start* - The index from which the sub-list start (inclussive).
+- *start* - The index from which the sub-list starts (inclusive).
 - *end* - The index at which the sub-list ends (exclusive).
 - *step* - How many elements to skip.
 
@@ -26,7 +26,7 @@ my_list[::2] # ['a', 'c', 'e']
 
 **Important:**
 
-- The *start* element is inclussive, which means that it will be included in the sub-list.
+- The *start* element is inclusive, which means that it will be included in the sub-list.
 - The *end* element is exclusive, which menas that it won't be included in the sub-list.
 - The *step* element is equals to 1 be default and doesn't need to be written always.
 
