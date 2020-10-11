@@ -57,11 +57,67 @@ remaining_tasks = [task for task in all_tasks if task not in completed_tasks]
 
 ### Nested loops
 
-TODO
+Comprehensions support more than one for loop, allowing loop nesting.
+
+**Example:**
+
+Suppose there is a 2D list (a list in which each element is another list a.k.a list of lists a.k.a matrix)
+and we want to flatten it, turning it into just one simple list of elements.
+
+```python
+matrix = [
+    [1, 2],
+    [3, 4],
+    [5, 6]
+]
+```
+
+This could be done using regular `for` loops:
+```python
+flat_list = []
+for sub_list in matrix:
+    for item in sub_list:
+        flat_list.append(item)
+# flat_list == [1, 2, 3, 4, 5, 6]
+```
+
+Instead, a list comprehension can do it in a short, one-liner:
+```python
+flat_list = [item for sub_list in matrix for item in sub_list] # [1, 2, 3, 4, 5, 6]
+```
+
+We could also add a condition. For instance assume we only want odd numers:
+```python
+flat_list = [item for sub_list in matrix for item in sub_list if item % 2 != 0] # [1, 3, 5]
+```
+
+Conditions can also be added between the nested loops like so:
+```python
+matrix = [ 
+    [1, 2], 
+    [6, 6, 6], 
+    [3, 4], 
+    [5, 6], 
+    [0] 
+]
+
+[item for sub_list in matrix if len(sub_list) == 2 for item in sub_list if item % 2 != 0] # [1, 3, 5]
+```
+
+This way we only pick sub-lists that have two elements, and then pick only the odd numbers from them.
 
 ### Multiple conditions
 
-TODO
+It's possible to set more than one condition using the `if` statement.
+
+In such case, they will be treated as the logical `and`.
+
+**Example:**
+
+```python
+[n for n in range(100) if n % 2 == 0 if n > 20 if n < 40] # [22, 24, 26, 28, 30, 32, 34, 36, 38]
+[n for n in range(100) if n % 2 == 0 and n > 20 and n < 40] # [22, 24, 26, 28, 30, 32, 34, 36, 38]
+```
 
 ## Important notes
 
