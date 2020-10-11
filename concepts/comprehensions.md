@@ -119,6 +119,26 @@ In such case, they will be treated as the logical `and`.
 [n for n in range(100) if n % 2 == 0 and n > 20 and n < 40] # [22, 24, 26, 28, 30, 32, 34, 36, 38]
 ```
 
+## Types of comrehensions
+
+- List comprehensions - Denoted by brackets `[]` and produce a `list`
+- Set comprehensions - Denoted by braces `{}` and produce a `set`
+- Dict comprehensions - Denoted by braces `{}` with the expression in `key:value` format
+- Generator comprehensions - Denoted by parentheses `()` and produce a `generator`
+
+**Examples:**
+
+```python
+# List
+[item for item in range(10)] # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+# Set
+{item for item in range(10)} # {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+# Dict
+{key:val for (key, val) in {'a': 1, 'b': 2}.items()} # {'a': 1, 'b': 2}
+# Generator
+(num for num in range(100**100)) # <generator object <genexpr> at 0x7fbc686c34a0>
+```
+
 ## Important notes
 
 - Comprehensions are part of the core language, they are generally faster than similar functions.
