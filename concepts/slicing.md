@@ -13,7 +13,7 @@ my_list[start:end:step]
 - *end* - The index at which the sub-list ends (exclusive).
 - *step* - How many elements to skip.
 
-**Example:**
+**Examples:**
 
 ```python
 my_list = ['a', 'b', 'c', 'd', 'e']
@@ -38,7 +38,7 @@ All three values in the slicing syntax may be negative, which grand extra abilit
 - *end*  - A negative end index counts elements up until the last number of elements.
 - *step* - A negative step reverses the order of the elements in the list.
 
-**Example:**
+**Examples:**
 
 ```python
 my_list = ['a', 'b', 'c', 'd', 'e']
