@@ -123,7 +123,7 @@ In such case, they will be treated as the logical `and`.
 
 - List comprehensions - Denoted by brackets `[]` and produce a `list`
 - Set comprehensions - Denoted by braces `{}` and produce a `set`
-- Dict comprehensions - Denoted by braces `{}` with the expression in `key:value` format
+- Dict comprehensions - Denoted by braces `{}` with the expression in `key:value` format and produce a `dict`
 - Generator comprehensions - Denoted by parentheses `()` and produce a `generator`
 
 **Examples:**
