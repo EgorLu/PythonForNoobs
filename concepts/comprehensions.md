@@ -31,7 +31,7 @@ In Python the syntax very much resembles the mathematical syntax but uses words 
 ```python
 my_list = [1, 2, 3, 4, 5]
 
-[num for num in my_list] # [1, 2, 3, 4, 5] (we coppied the entire list)
+[num for num in my_list] # [1, 2, 3, 4, 5] (we copied the entire list)
 [num * 2 for num in my_list] # [2, 4, 6, 8, 10] (the output expression is num*2, thus every item was multiplied)
 [num for num in my_list if num > 2] # [3, 4, 5] (only numbers larger than 2 were picked)
 ```
@@ -121,10 +121,10 @@ In such case, they will be treated as the logical `and`.
 
 ## Types of comrehensions
 
-- List comprehensions - Denoted by brackets `[]` and produce a `list`
-- Set comprehensions - Denoted by braces `{}` and produce a `set`
-- Dict comprehensions - Denoted by braces `{}` with the expression in `key:value` format and produce a `dict`
-- Generator comprehensions - Denoted by parentheses `()` and produce a `generator`
+- List comprehensions - denoted by brackets `[]` and produce a `list`
+- Set comprehensions - denoted by braces `{}` and produce a `set`
+- Dict comprehensions - denoted by braces `{}` with the expression in `key:value` format and produce a `dict`
+- Generator comprehensions - denoted by parentheses `()` and produce a `generator`
 
 **Examples:**
 
