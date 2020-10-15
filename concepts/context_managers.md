@@ -136,7 +136,7 @@ This is just a quick way for creating context managers that spares time and line
 
 Context managers should be used in any case where a repetetive pattern alike "Open then Close" emerges.
 
-Patters like "Connect -> Diconnect", "Start -> Stop", "Setup variables -> Teardown variables" and so on.
+Patters like "Connect -> Disconnect", "Start -> Stop", "Setup variables -> Teardown variables" and so on.
 
 Context managers may remind of a [function decorator](https://github.com/EgorLu/PythonForNoobs/blob/main/concepts/decorators.md)
 where there's something happening before the main logic and something happens after it.
