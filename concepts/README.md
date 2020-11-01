@@ -5,7 +5,7 @@
 - [Decorators](https://github.com/EgorLu/PythonForNoobs/blob/main/concepts/decorators.md)
 - [Generators](https://github.com/EgorLu/PythonForNoobs/blob/main/concepts/generators.md)
 - [Context managers](https://github.com/EgorLu/PythonForNoobs/blob/main/concepts/context_managers.md)
-- Lambda functions
+- [Lambda functions](https://github.com/EgorLu/PythonForNoobs/blob/main/concepts/lambdas.md)
 - Python protocols
 - Design patterns
 - Meta-programming
