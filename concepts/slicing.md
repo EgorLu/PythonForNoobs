@@ -32,7 +32,7 @@ my_list[::2] # ['a', 'c', 'e']
 
 ## Additional features
 
-All three values in the slicing syntax may be negative, which grand extra abilities:
+All three values in the slicing syntax may be negative, which grant extra abilities:
 
 - *start* - A negative start index starts listing elements from the end of the list.
 - *end*  - A negative end index counts elements up until the last number of elements.
