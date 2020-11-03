@@ -28,7 +28,7 @@ my_list[::2] # ['a', 'c', 'e']
 
 - The *start* element is inclusive, which means that it will be included in the sub-list.
 - The *end* element is exclusive, which menas that it won't be included in the sub-list.
-- The *step* element is equals to 1 be default and doesn't need to be written always.
+- The *step* element equals to 1 by default and doesn't need to be written always.
 
 ## Additional features
 
