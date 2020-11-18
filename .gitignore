@@ -130,3 +130,5 @@ dmypy.json
 
 # Story game
 story_*.txt
+
+.vscode
