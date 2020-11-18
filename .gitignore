@@ -131,4 +131,5 @@ dmypy.json
 # Story game
 story_*.txt
 
+# Visual Studio Code
 .vscode
